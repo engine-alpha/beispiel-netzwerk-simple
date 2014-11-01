@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=ipAdresse
+comment0.target=MeinClient(java.lang.String)
+comment0.text=\r\n\ Erstellt\ einen\ Client,\ der\ immer\ an\ Port\ 34567\ nach\ dem\ Server\ sucht\r\n\ (damit\ stimmen\ die\ Portnummern\ von\ Server\ und\ Client\ \u00FCberein).\r\n\ \r\n\ @param\ ipAdresse\ Die\ IP-Adresse\ des\ Servers,\ zu\ dem\ dieser\ Client\ eine\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Verbindung\ aufbauen\ soll.\ (z.B.\ "192.168.0.2")\r\n
+comment1.params=nachricht
+comment1.target=void\ sendeNachrichtAnServer(java.lang.String)
+comment1.text=\r\n\ Sendet\ eine\ Nachricht\ an\ den\ Server.\ Dies\ wird\ \u00FCber\ die\ Methode\r\n\ <code>sendeString(String)</code>\ umgesetzt.\r\n\ @param\ nachricht\ Eine\ beliebige\ Nachricht\ an\ den\ Server\ als\ String.\r\n
+comment2.params=i
+comment2.target=void\ empfangeInt(int)
+comment2.text=\r\n\ Diese\ Methode\ wird\ immer\ dann\ aufgerufen,\ wenn\ der\ Server\ einen\r\n\ Integer-Wert\ aussendet.\r\n\ @param\ \ \ i\ \ \ Der\ Integer-Wert,\ den\ der\ Server\ gesendet\ hat.\r\n
+comment3.params=string
+comment3.target=void\ empfangeString(java.lang.String)
+comment3.text=\r\n\ Diese\ Methode\ wird\ immer\ dann\ aufgerufen,\ wenn\ der\ Server\ einen\r\n\ String-Wert\ aussendet.\r\n\ @param\ \ \ string\ \ \ Der\ String-Wert,\ den\ der\ Server\ gesendet\ hat.\r\n
+numComments=4

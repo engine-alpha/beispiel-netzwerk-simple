@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MeinBroadcastServer()
+comment0.text=\r\n\ Der\ Konstruktor\ erstellt\ den\ Server\ automatisch\ auf\ Port\ 34567.\r\n\ Au\u00DFerdem\ wird\ das\ erstellte\ Objekt\ als\ globaler\ Empf\u00E4nger\ gesetzt.\r\n
+comment1.params=string
+comment1.target=void\ empfangeString(java.lang.String)
+comment1.text=\r\n\ Wird\ aufgerufen,\ wenn\ ein\ beliebiger\ Client\ an\ den\ Server\ einen\ String\ sendet.\r\n\ \r\n\ Der\ Server\ f\u00FChrt\ hier\ einen\ kleinen\ Algorithmus\ aus\:\r\n\ -\ Ist\ die\ L\u00E4nge\ der\ Eingabe\ gerade,\ sendet\ er\ die\ L\u00E4nge\ der\ Eingabe\ an\ alle\ Clients.\r\n\ -\ Ist\ die\ L\u00E4nge\ der\ Eingabe\ ungerade,\ sendet\ er\ die\ Eingabe\ selbst\ an\ alle\ Clients.\r\n
+comment2.params=
+comment2.target=void\ verbindungBeendet()
+comment2.text=\r\n\ Wird\ aufgerufen,\ wenn\ ein\ beliebiger\ Client\ die\ Verbindung\ zum\ Server\r\n\ beendet.\r\n\ \r\n\ Der\ Server\ informiert\ mit\ einer\ Standard-Nachricht\ alle\ (anderen)\ Clients\r\n\ vom\ Verbindungsabbruch.\r\n
+comment3.params=i
+comment3.target=void\ empfangeInt(int)
+comment4.params=b
+comment4.target=void\ empfangeByte(byte)
+comment5.params=d
+comment5.target=void\ empfangeDouble(double)
+comment6.params=c
+comment6.target=void\ empfangeChar(char)
+comment7.params=b
+comment7.target=void\ empfangeBoolean(boolean)
+numComments=8
